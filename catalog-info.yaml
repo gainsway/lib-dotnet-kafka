@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "lib-dotnet-kafka"
+  description: ".NET client for Apache Kafka. This library exposes wrappers around Confluent Kafka client pre-configured with gainsway requirements i.e. telemetry data"
+  annotations:
+    github.com/project-slug: gainsway/lib-dotnet-kafka
+    backstage.io/techdocs-ref: dir:.
+  tags: 
+    - dotnet
+spec:
+  type: library
+  lifecycle: experimental
+  owner: "group:default/engineering"

@@ -1,0 +1,8 @@
+site_name: "lib-dotnet-kafka"
+site_description: ".NET client for Apache Kafka. This library exposes wrappers around Confluent Kafka client pre-configured with gainsway requirements i.e. telemetry data"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
